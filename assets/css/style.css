@@ -7,6 +7,23 @@
 }
 
 body {
-    font-family: poppins;
+    font-family: Poppins;
     font-weight: 400;
 }
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: Jost, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000066;
+}
+
+#name {
+    float: left;
+    margin-left: 25px;
+    font-size: 350%;
+}
+
