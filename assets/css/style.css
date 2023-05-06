@@ -23,7 +23,35 @@ h2 {
 
 #name {
     float: left;
-    margin-left: 25px;
-    font-size: 350%;
+    margin-left: 40px;
+    font-size: 300%;
 }
 
+/* navigation links */
+
+#name, #page-links{
+    line-height: 75px;
+}
+#page-links {
+    font-size: 130%;
+    float: right;
+}
+
+#page-links li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#page-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#page-links a:hover {
+    border-bottom: 2px solid #000066;
+}
+
+.open {
+    border-bottom: 2px solid #000066;
+}
