@@ -103,44 +103,50 @@ animation-duration: 1s;
 
 #hero-text-left, #hero-text-left h2 {
     color: #fff;
+    text-align: center;
+}
+
+#hero-text-right, h2, p {
+    color: #fff;
+    text-align: center;
 }
 
 #hero-text-left {
         font-size: 130%;
         font-family: Jost,sans-serif;
         text-transform: uppercase;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
     
-        width: 300px;
+        width: 350px;
         height: 200px;
         
         padding-top: 40px;
         padding-left: 10px;
     
-        background-color: rgba(241, 109, 107, .7);
+        background-color: rgba(0, 0, 102, .5);
     
         top: 30px;
-        left: 150px;
+        left: 75px;
     
         position: absolute;
     }
 
     #hero-text-right {
-        font-size: 130%;
+        font-size: 75%;
         font-family: Jost,sans-serif;
         text-transform: uppercase;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
     
-        width: 300px;
+        width: 350px;
         height: 200px;
         
         padding-top: 40px;
         padding-left: 10px;
     
-        background-color: rgba(241, 109, 107, .7);
+        background-color: rgba(0, 0, 102, .5);
     
         bottom: 30px;
-        right: 150px;
+        right: 75px;
     
         position: absolute;
     }
