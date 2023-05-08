@@ -64,7 +64,7 @@ h2 {
 
 }
 
-/* hero image */ 
+/* hero image */
 
 #hero-image {
     width: 100%;
@@ -82,71 +82,110 @@ h2 {
     position: relative;
 
 
-/* hero image will zoom out on page load */
+    /* hero image will zoom out on page load */
 
-animation-name: hero-zoom-out;
-animation-fill-mode: forwards;
-animation-duration: 1s;
+    animation-name: hero-zoom-out;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
 }
+
 /* zoom out from hero image */
 
 @keyframes hero-zoom-out {
-    from{
-       transform: scale(1.2);
+    from {
+        transform: scale(1.2);
     }
-    to{
+
+    to {
         transform: scale(1.0);
     }
-} 
+}
 
 /* information boxes inside hero image */
 
-#hero-text-left, #hero-text-left h2 {
+#hero-text-left,
+#hero-text-left h2 {
     color: #fff;
     text-align: center;
 }
 
-#hero-text-right, h2, p {
+#hero-text-right,
+h2,
+p {
     color: #fff;
     text-align: center;
 }
 
 #hero-text-left {
-        font-size: 130%;
-        font-family: Jost,sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    
-        width: 350px;
-        height: 200px;
-        
-        padding-top: 40px;
-        padding-left: 10px;
-    
-        background-color: rgba(0, 0, 102, .5);
-    
-        top: 30px;
-        left: 75px;
-    
-        position: absolute;
-    }
+    font-size: 130%;
+    font-family: Jost, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 350px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 102, .5);
+    top: 30px;
+    left: 75px;
+    position: absolute;
+}
 
-    #hero-text-right {
-        font-size: 75%;
-        font-family: Jost,sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 3px;
+#hero-text-right {
+    font-size: 75%;
+    font-family: Jost, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 350px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 102, .5);
+    bottom: 30px;
+    right: 75px;
+    position: absolute;
+}
+
+/* middle section of the page */
+
+#middle h2 {
+    font-size: 200%;
+    color: #000066;
+    text-align: center;
+    margin: 20px;
+}
+/* left hand side tip */
+.tip-left {
+    color: #000066;
+    padding-left: 20px;
+    height: 300px;
+    width: 75%;
     
-        width: 350px;
-        height: 200px;
-        
-        padding-top: 40px;
-        padding-left: 10px;
-    
-        background-color: rgba(0, 0, 102, .5);
-    
-        bottom: 30px;
-        right: 75px;
-    
-        position: absolute;
-    }
+}
+
+#heading-tip-left {
+    height: 375px;
+    width: 250px;
+    font-size: 75%;
+    text-align: center;
+    border: 2px solid black;
+    background-color: yellow;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+#heading-tip-left, .tip-left {
+    padding-left: 20px;
+}
+/* right hand side tip */
+#tip-right, .tip-right {
+    font-size: 150%;
+    float: right;
+}
+
+#tip-right, .tip-right {
+    height: 300px;
+    width: 250px;
+    font-size: 150%;
+    float: right;
+}
