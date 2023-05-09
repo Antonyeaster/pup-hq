@@ -117,7 +117,7 @@ p {
 }
 
 #hero-text-left {
-    font-size: 130%;
+    font-size: 75%;
     font-family: Jost, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -136,7 +136,7 @@ p {
     font-family: Jost, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    width: 350px;
+    width: 375px;
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
@@ -208,3 +208,18 @@ p {
     border: 2px solid black;
     border-radius: 25px;
 }
+
+/* center tip */
+
+#center-tip {
+    width: 75%;
+    height: 300px;
+    background-color: beige;
+    border: 10px solid black;
+    clear: both;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    border-radius: 30%;
+}
+
