@@ -154,38 +154,57 @@ p {
     text-align: center;
     margin: 20px;
 }
-/* left hand side tip */
-.tip-left {
-    color: #000066;
-    padding-left: 20px;
+/* left and right hand side tip */
+.container {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.container > div {
+    width: 300px;
     height: 300px;
-    width: 75%;
-    
+    background-color: beige;
 }
 
 #heading-tip-left {
-    height: 375px;
-    width: 250px;
-    font-size: 75%;
+    float: left;
+    height: 400px;
+    width: 350px;
+    font-size: 100%;
+    border: 10px solid black;
+    border-radius: 25%;
     text-align: center;
+    padding: 20px;
+}
+
+#heading-tip-left > p {
+    text-align: center;
+    color: #000066;
+}
+
+#tip-right {
+    float: right;
+    height: 400px;
+    width: 350px;
+    font-size: 75%;
+    border: 10px solid black;
+    border-radius: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* center image */
+
+#center-image {
+    display: inline-block;
+    margin: 0 auto;
+    height: 400px;
+    width: 30%;
+    background-image: url('../images/high-5.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border: 2px solid black;
-    background-color: yellow;
-    border-radius: 15px;
-    margin-left: 20px;
-}
-
-#heading-tip-left, .tip-left {
-    padding-left: 20px;
-}
-/* right hand side tip */
-#tip-right, .tip-right {
-    font-size: 150%;
-    float: right;
-}
-
-#tip-right, .tip-right {
-    height: 300px;
-    width: 250px;
-    font-size: 150%;
-    float: right;
+    border-radius: 25px;
 }
