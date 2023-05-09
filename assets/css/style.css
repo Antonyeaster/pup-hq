@@ -223,3 +223,28 @@ p {
     border-radius: 30%;
 }
 
+/* gallery section at the bottom of the page */
+
+.image-container > div {
+    width: 25%;
+    height: 100px;
+    background-color: red;
+}
+
+#image-1 {
+    float: left;
+    height: 100px;
+}
+
+#image-2 {
+    float: right;
+    height: 100px;
+}
+
+#image-3 {
+    display: inline-block;
+}
+
+#image-4 {
+    display: inline-block;
+}
