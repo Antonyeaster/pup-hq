@@ -173,10 +173,11 @@ p {
     height: 400px;
     width: 350px;
     font-size: 100%;
-    border: 10px solid black;
+    border: 10px solid #fff;
     border-radius: 25%;
     text-align: center;
     padding: 20px;
+    
 }
 
 #heading-tip-left > p {
@@ -184,15 +185,20 @@ p {
     color: #000066;
 }
 
-#tip-right {
+#heading-tip-right {
     float: right;
     height: 400px;
     width: 350px;
     font-size: 75%;
-    border: 10px solid black;
+    border: 10px solid #fff;
     border-radius: 25%;
     padding: 20px;
     text-align: center;
+}
+
+#heading-tip-right > p {
+    text-align: center;
+    color: #000066;
 }
 
 /* center image */
@@ -206,13 +212,13 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 2px solid black;
+    border: 10px solid #fff;
     border-radius: 25px;
 }
 
 /* center tip */
 
-#center-tip {
+#heading-center-tip {
     width: 75%;
     height: 300px;
     background-color: beige;
@@ -221,8 +227,16 @@ p {
     margin: 0 auto;
     margin-top: 70px;
     text-align: center;
-    border-radius: 30%;
+    border-radius: 20%;
+    padding-top: 40px;
 }
+
+#heading-center-tip > p {
+    text-align: center;
+    color: #000066;
+    padding: 20px;
+}
+
 
 /* gallery section at the bottom of the page */
 
@@ -234,18 +248,49 @@ p {
 
 #image-1 {
     float: left;
-    height: 100px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    background-image: url('../images/puppy-2-1340615.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #fff;
 }
 
 #image-2 {
     float: right;
-    height: 100px;
+    height: 300px;
+    position: absolute;
+    left: 25%;
+    background-image: url('../images/puppy-2-1340615.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #fff;
+    
 }
 
 #image-3 {
     display: inline-block;
+    position: absolute;
+    right: 25%;
+    height: 300px;
+    background-image: url('../images/puppy-2-1340615.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #fff;
 }
 
 #image-4 {
     display: inline-block;
+    position: absolute;
+    right: 0;
+    height: 300px;
+    background-image: url('../images/puppy-2-1340615.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #fff;
 }
