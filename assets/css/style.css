@@ -9,6 +9,7 @@
 body {
     font-family: Poppins;
     font-weight: 400;
+    background-color: black;
 }
 
 #hero-image {
@@ -22,7 +23,7 @@ h2 {
     font-family: Jost, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #000066;
+    color: #fff;
 }
 
 
@@ -52,15 +53,15 @@ h2 {
 
 #page-links a {
     text-decoration: none;
-    color: inherit;
+    color: #fff;
 }
 
 #page-links a:hover {
-    border-bottom: 2px solid #000066;
+    border-bottom: 2px solid #fff;
 }
 
 .open {
-    border-bottom: 2px solid #000066;
+    border-bottom: 2px solid #fff;
 
 }
 
@@ -150,7 +151,7 @@ p {
 
 #middle h2 {
     font-size: 200%;
-    color: #000066;
+    color: #fff;
     text-align: center;
     margin: 20px;
 }
