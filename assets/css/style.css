@@ -6,10 +6,17 @@
     border: none;
 }
 
+html {
+    height: 100vh;
+}
+
 body {
     font-family: Poppins;
     font-weight: 400;
-    background-color: black;
+    background-color: #000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #hero-image {
@@ -87,7 +94,7 @@ h2 {
 
     animation-name: hero-zoom-out;
     animation-fill-mode: forwards;
-    animation-duration: 1s;
+    animation-duration: 3s;
 }
 
 /* zoom out from hero image */
@@ -274,7 +281,7 @@ p {
 }
 
 #image-3 {
-    display: inline-block;
+    display: flex;
     position: absolute;
     right: 25%;
     height: 300px;
@@ -301,14 +308,27 @@ p {
 
 footer {
     height: 150px;
-    bottom: 0;
-    clear: both;
+    width: 100%;
+    margin-top: 300px;
 }
 
 .social-links {
     text-align: center;
+    padding: 75px;
 }
 
 .social-links > li {
     display: inline;
+    padding: 100px;
+
+
 }
+
+.social-links i {
+    color: #fff;
+    font-size: 200%;
+    padding: 2%;
+    margin: 1%;
+}
+
+
