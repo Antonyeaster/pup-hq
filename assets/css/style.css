@@ -329,4 +329,45 @@ footer {
     margin: 1%;
 }
 
+/* flip box info section */
 
+.flip-container {
+background-color: transparent;
+width: 500px;
+height: 300px;
+perspective: 1000px;
+margin: 0 auto;
+margin-top: 10px;
+}
+
+.flip-inner {
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 1.5s;
+transform-style: preserve-3d;
+}
+
+.flip-container:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+
+.lead-training-front, .lead-training-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.lead-training-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .lead-training-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
