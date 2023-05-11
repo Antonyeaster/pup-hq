@@ -7,16 +7,18 @@
 }
 
 html {
-    height: 100vh;
+    height: 2250px;
+    margin: 0;
 }
 
 body {
     font-family: Poppins;
     font-weight: 400;
-    background-color: #000;
+    background: linear-gradient(45deg, #061de3, #e306ca);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 #hero-image {
@@ -96,8 +98,6 @@ h2 {
     animation-fill-mode: forwards;
     animation-duration: 3s;
 }
-
-/* zoom out from hero image */
 
 @keyframes hero-zoom-out {
     from {
@@ -252,7 +252,6 @@ p {
 .image-container>div {
     width: 25%;
     height: 100px;
-    background-color: red;
 }
 
 #image-1 {
