@@ -383,3 +383,11 @@ footer {
 }
 
 /* contact form */
+
+#contact-us {
+    height: 600px;
+    width: 400px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    color: #fff;
+}
