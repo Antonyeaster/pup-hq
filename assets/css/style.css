@@ -7,14 +7,14 @@
 }
 
 html {
-    height: 2250px;
+    height: 100vh;
     margin: 0;
 }
 
 body {
     font-family: Poppins;
     font-weight: 400;
-    background: linear-gradient(45deg, #061de3, #e306ca);
+    background: #000;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -249,16 +249,16 @@ p {
 /* gallery section at the bottom of the page */
 
 .image-container>div {
-        clear: both;
-        line-height: 0;
-        column-count: 4;
-        column-gap: 0;
-        display: inline-block;
-        margin: 1px;
-    
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    display: inline-block;
+    margin: 1px;
+
 }
 
-#image-container > img {
+#image-container>img {
     width: 100%;
 }
 
@@ -315,7 +315,7 @@ footer {
     padding: 75px;
 }
 
-.social-links > li {
+.social-links>li {
     display: inline;
     padding: 100px;
 
@@ -332,28 +332,29 @@ footer {
 /* flip box info section */
 
 .flip-container {
-background-color: transparent;
-width: 450px;
-height: 300px;
-perspective: 1000px;
-margin: 0 auto;
-margin-top: 10px;
+    background-color: transparent;
+    width: 450px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .flip-inner {
-position: relative;
-width: 100%;
-height: 100%;
-text-align: center;
-transition: transform 1.5s;
-transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
 }
 
 .flip-container:hover .flip-inner {
     transform: rotateY(180deg);
 }
 
-.lead-training-front, .lead-training-back {
+.lead-training-front,
+.lead-training-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -367,10 +368,20 @@ transform-style: preserve-3d;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  }
+}
 
-  .lead-training-back {
-    background-color: dodgerblue;
+.lead-training-back {
+    background-color: rgb(0, 0, 0);
     color: white;
     transform: rotateY(180deg);
-  }
+}
+
+/* location map */
+
+#location {
+    margin: 40px;
+    position: relative;
+
+}
+
+/* contact form */
