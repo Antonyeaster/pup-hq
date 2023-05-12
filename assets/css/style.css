@@ -7,7 +7,7 @@
 }
 
 html {
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
 }
 
@@ -312,14 +312,11 @@ footer {
 
 .social-links {
     text-align: center;
-    padding: 75px;
 }
 
 .social-links>li {
     display: inline;
-    padding: 100px;
-
-
+    padding-right: 50px;
 }
 
 .social-links i {
@@ -350,7 +347,7 @@ footer {
 }
 
 .flip-container:hover .flip-inner {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .lead-training-front,
@@ -373,13 +370,14 @@ footer {
 .lead-training-back {
     background-color: rgb(0, 0, 0);
     color: white;
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
+    margin: 0 auto;
 }
 
 /* location map */
 
 #location {
-    margin: 40px;
+    margin-top: 30px;
     position: relative;
 
 }
