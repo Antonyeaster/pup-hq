@@ -12,7 +12,7 @@
     <title>PUP HQ</title>
 </head>
 
-<body>
+<body id="contact-background">
     <!--header and nav-->
     <header>
         <a href="index.html">
@@ -38,29 +38,30 @@
     </header>
 
     <body>
-<div id="contact-us">
-<form method="post "action="confirmation.html">
-<fieldset>
-    <legend>Details</legend>
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="first-name" placeholder="First Name">
+        <div id="contact-us">
+            <form method="post " action="confirmation.html">
+                <fieldset>
+                    <legend>Details</legend>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="first-name" placeholder="First Name" required>
+                    <br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="last-name" placeholder="Last Name" required>
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Message<legend>
+                            <label for="message"></label>
+                            <textarea name="message" id="message" cols="52" rows="20"
+                                placeholder="Enter your message here"></textarea>
+                </fieldset>
+                <input type="submit">
+                <input type="reset">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="last-name" placeholder="Last Name">>
-
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="email" placeholder="Email Address">>
-</fieldset>
-<fieldset>
-    <legend>Message<legend>
-    <label for="message">Send us a message</label>
-    <input type="text" id="message" name="message" placeholder="Enter your message here">
-</fieldset>
-    <input type="submit">
-    <input type="reset">
-
-</form>
-</div>
+            </form>
+        </div>
 
     </body>
 
