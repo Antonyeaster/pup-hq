@@ -402,3 +402,27 @@ footer {
 #contact-background {
     background: url('../images/hero-image-puphq.webp') no-repeat center center;
 }
+
+/* confirmation image */
+
+#confirmation-image {
+    background: url('../images/high-5.webp') no-repeat center center;
+    background-size: cover;
+}
+
+/* confirmation message box */
+
+#confirmation-message {
+    font-size: 75%;
+    font-family: Jost, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 600px;
+    height: 400px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 102, .5);
+    top: 30px;
+    left: 75px;
+    position: absolute;
+}
