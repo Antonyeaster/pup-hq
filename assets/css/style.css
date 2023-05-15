@@ -65,6 +65,9 @@ h2 {
 
 #page-links a:hover {
     border-bottom: 2px solid #fff;
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
 }
 
 .open {
