@@ -128,31 +128,39 @@ p {
 #hero-text-left {
     font-size: 75%;
     font-family: Jost, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 3px;
-    width: 350px;
-    height: 200px;
-    padding-top: 40px;
+    width: 400px;
+    height: 225px;
+    padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(0, 0, 102, .5);
     top: 30px;
-    left: 75px;
+    left: 50px;
     position: absolute;
+    border-radius: 30px;
+}
+
+#hero-text-left p {
+    font-size: 15px;
 }
 
 #hero-text-right {
     font-size: 75%;
     font-family: Jost, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 3px;
-    width: 375px;
-    height: 200px;
+    width: 400px;
+    height: 225px;
     padding-top: 40px;
     padding-left: 10px;
     background-color: rgba(0, 0, 102, .5);
     bottom: 30px;
     right: 75px;
     position: absolute;
+    border-radius: 30px;
+}
+
+#hero-text-right p {
+    font-size: 15px;
 }
 
 /* middle section of the home page */
