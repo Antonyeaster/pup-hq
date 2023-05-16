@@ -132,7 +132,7 @@ p {
     width: 400px;
     height: 225px;
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 5px;
     background-color: rgba(0, 0, 102, .5);
     top: 30px;
     left: 50px;
@@ -151,10 +151,10 @@ p {
     width: 400px;
     height: 225px;
     padding-top: 40px;
-    padding-left: 10px;
+    padding-left: 5px;
     background-color: rgba(0, 0, 102, .5);
     bottom: 30px;
-    right: 75px;
+    right: 50px;
     position: absolute;
     border-radius: 30px;
 }
@@ -172,17 +172,18 @@ p {
     margin: 20px;
 }
 
-/* left and right hand side tip */
+/* left side tip */
 .container {
     text-align: center;
     padding: 20px;
+    display: flex;
 
 }
 
 .container>div {
-    width: 300px;
-    height: 300px;
-    background-color: beige;
+    width: 350px;
+    height: 400px;
+    background-color: silver;
 }
 
 #heading-tip-left {
@@ -190,7 +191,7 @@ p {
     height: 400px;
     width: 350px;
     font-size: 100%;
-    border: 5px solid black;
+    border: 3px solid #fff;
     border-radius: 10px;
     text-align: center;
     padding: 20px;
@@ -202,12 +203,14 @@ p {
     color: #000066;
 }
 
+/* right side tip */
+
 #heading-tip-right {
     float: right;
     height: 400px;
     width: 350px;
     font-size: 75%;
-    border: 5px solid black;
+    border: 3px solid #fff;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -224,12 +227,10 @@ p {
     display: inline-block;
     margin: 0 auto;
     height: 400px;
-    width: 30%;
-    background-image: url('../images/high-5.webp');
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 350px;
+    background: url('../images/high-5.webp') no-repeat center center;
     background-size: cover;
-    border: 5px solid black;
+    border: 3px solid #fff;
     border-radius: 10px;
 }
 
@@ -238,14 +239,14 @@ p {
 #heading-center-tip {
     width: 75%;
     height: 300px;
-    background-color: beige;
+    background-color: silver;
     clear: both;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 20px;
     text-align: center;
     border-radius: 10px;
     padding-top: 40px;
-    border: 5px solid black;
+    border: 3px solid #fff;
 }
 
 #heading-center-tip>p {
