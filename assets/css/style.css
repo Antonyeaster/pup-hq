@@ -232,6 +232,7 @@ p {
     background-size: cover;
     border: 3px solid #fff;
     border-radius: 10px;
+    padding: 20px;
 }
 
 /* center tip */
@@ -259,58 +260,31 @@ p {
 /* gallery section at the bottom of the page */
 
 .image-container>div {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
+    margin: 22px;
     display: inline-block;
-    margin: 1px;
-
-}
-
-#image-container>img {
-    width: 100%;
 }
 
 #image-1 {
-    height: 300px;
-    background-image: url('../images/puppy-2-1340615.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 275px;
+    background: url('../images/puppy-2-1340615.jpg') no-repeat center center;
     background-size: cover;
-    border: 5px solid black;
-    width: 24%;
+    width: 30%;
 }
 
 #image-2 {
-    height: 300px;
-    background-image: url('../images/puppy-2-1340615.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 275px;
+    background: url('../images/puppy-2-1340615.jpg') no-repeat center center;
     background-size: cover;
-    border: 5px solid black;
-    width: 24%;
+    width: 30%;
 
 }
 
 #image-3 {
-    height: 300px;
-    background-image: url('../images/puppy-2-1340615.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 275px;
+    background: url('../images/puppy-2-1340615.jpg') no-repeat center center;
     background-size: cover;
-    border: 5px solid black;
-    width: 24%;
-}
-
-#image-4 {
-    height: 300px;
-    background-image: url('../images/puppy-2-1340615.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 5px solid black;
-    width: 24%;
+    width: 30%;
+    float: right;
 }
 
 /* footer */
