@@ -188,8 +188,8 @@ p {
 
 #heading-tip-left {
     float: left;
-    height: 400px;
     width: 350px;
+    height: 400px;
     font-size: 100%;
     border: 3px solid #fff;
     border-radius: 10px;
@@ -203,13 +203,19 @@ p {
     color: #000066;
 }
 
+#heading-tip-left h3 {
+    border-bottom: 3px solid #000066;
+    margin: 5px;
+
+}
+
 /* right side tip */
 
 #heading-tip-right {
     float: right;
-    height: 400px;
     width: 350px;
-    font-size: 75%;
+    height: 400px;
+    font-size: 100%;
     border: 3px solid #fff;
     border-radius: 10px;
     padding: 20px;
@@ -221,13 +227,19 @@ p {
     color: #000066;
 }
 
+#heading-tip-right h3 {
+    border-bottom: 3px solid #000066;
+    margin: 5px;
+
+}
+
 /* center image */
 
 #center-image {
     display: inline-block;
     margin: 0 auto;
-    height: 400px;
     width: 350px;
+    height: 400px;
     background: url('../images/high-5.webp') no-repeat center center;
     background-size: cover;
     border: 3px solid #fff;
@@ -237,23 +249,29 @@ p {
 
 /* center tip */
 
-#heading-center-tip {
+#heading-tip-center {
     width: 75%;
-    height: 300px;
+    height: 200px;
     background-color: silver;
     clear: both;
     margin: 0 auto;
     margin-top: 20px;
     text-align: center;
     border-radius: 10px;
-    padding-top: 40px;
+    padding: 20px;
     border: 3px solid #fff;
 }
 
-#heading-center-tip>p {
+#heading-tip-center>p {
     text-align: center;
     color: #000066;
-    padding: 20px;
+    padding: 10px;
+}
+
+#heading-tip-center h3 {
+    border-bottom: 3px solid #000066;
+    margin: 5px;
+
 }
 
 
