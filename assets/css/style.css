@@ -365,30 +365,33 @@ footer {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    border-radius: 10px;
 }
 
 .lead-training-front {
-    background-color: purple;
+    background-color: silver;
     color: black;
     background: url('../images/puppy-2-1340615.jpg') no-repeat center center;
     background-size: cover;
 }
 
 .lead-training-back {
-    background-color: blue;
-    color: white;
+    background-color: silver;
     transform: rotateX(180deg);
     margin: 0 auto;
+}
+
+.lead-training-back, h2, p {
+    color: #000066;
+    font-weight: 150;
 }
 
 /* flip box social group */
 
 .social-training-front {
-    background-color: purple;
+    background-color: silver;
     color: black;
     background: url('../images/hero-image-puphq.webp') no-repeat center center;
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 
@@ -398,22 +401,25 @@ footer {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    border-radius: 10px;
 }
 .social-training-back {
-    background-color: blue;
-    color: white;
+    background-color: silver;
     transform: rotateX(180deg);
     margin: 0 auto;
+}
+
+.social-training-back, h2, p {
+    color: #000066;
+    font-weight: 150;
 }
 
 /* clicker training  */
 
 .clicker-training-front {
-    background-color: purple;
+    background-color: silver;
     color: black;
     background: url('../images/high-5.webp') no-repeat center center;
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 
@@ -423,13 +429,18 @@ footer {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    border-radius: 10px;
 }
 
 .clicker-training-back {
-    background-color: blue;
-    color: white;
+    background-color: silver;
     transform: rotateX(180deg);
     margin: 0 auto;
+}
+
+.clicker-training-back, h2, p {
+    color: #000066;
+    font-weight: 150;
 }
 
 /* location map */
