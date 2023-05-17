@@ -371,7 +371,7 @@ footer {
 .lead-training-front {
     background-color: silver;
     color: black;
-    background: url('../images/puppy-2-1340615.jpg') no-repeat center center;
+    background: url('../images/lead-training.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -391,7 +391,7 @@ footer {
 .social-training-front {
     background-color: silver;
     color: black;
-    background: url('../images/hero-image-puphq.webp') no-repeat center center;
+    background: url('../images/socializing.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -419,7 +419,7 @@ footer {
 .clicker-training-front {
     background-color: silver;
     color: black;
-    background: url('../images/high-5.webp') no-repeat center center;
+    background: url('../images/clicker-training.jpg') no-repeat center center;
     background-size: cover;
 }
 
