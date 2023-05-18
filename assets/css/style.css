@@ -453,7 +453,7 @@ footer {
     padding: 30px;
     font-weight: 800;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 20px;
     background: rgba(0, 0, 102, .5);
 }
 
@@ -473,8 +473,8 @@ footer {
 
 
 #contact-background {
-    background: url('../images/hero-image-puphq.webp') no-repeat center center;
-    height: 600px;
+    background: url('../images/contact-us-2.jpg') no-repeat center center;
+    height: 550px;
     width: 100%;
     background-size: cover;
 }
