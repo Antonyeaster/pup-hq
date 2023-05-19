@@ -547,7 +547,6 @@ footer {
 @media screen and (max-width: 1300px) {
     #tips {
         width: 100vw;
-        height: 1000px;
         margin: 0 auto;
         display: contents;
     }
@@ -596,7 +595,7 @@ footer {
     }
 } 
 
-@media scrren and (max-width: 1510px) {
+@media screen and (max-width: 1520px) {
     .image-container {
         float: none;
         width: 50%;
@@ -609,10 +608,24 @@ footer {
         margin: 0 auto;
     }
 
+    #image-2 {
+        float: right;
+    }
+
      .hidden-mobile{
         display: none;
     }
+
+    /* media queries for meet up page */
+    
+    .flip-container {
+        display: block;
+        margin: 0 auto;
+
+    }
 }
+
+/* screen size 970px and above */
 
 @media screen and (max-width: 970px) {
     #heading-tip-center, #heading-tip-right, #heading-tip-left  {
@@ -629,4 +642,21 @@ footer {
             float: left;
             margin-left: 10px;
         }
+
+        .social-links i {
+            font-size: 150%;
+            margin-right: 5px;
+        }
+    }
+
+    @media screen and (max-width: 390px ) and (min-width: 500px){
+        iframe {
+            width: 100vw;
+            margin: 0 auto;
+        }
+        .social-links i {
+            font-size: 75%;
+            margin-right: 5px;
+        
+    }
     }
