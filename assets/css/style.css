@@ -167,6 +167,7 @@ p {
 
 #tips {
     width: 100%;
+    overflow: hidden;
 }
 
 /* middle heading of the home page */
@@ -182,7 +183,7 @@ p {
 .container {
     text-align: center;
     padding: 20px;
-    display: flex;
+    display: inline-block;
 
 }
 
@@ -266,6 +267,7 @@ p {
     border-radius: 10px;
     padding: 20px;
     border: 3px solid #fff;
+    
 }
 
 #heading-tip-center>p {
@@ -316,6 +318,10 @@ p {
     border-radius: 10px;
 }
 
+.image-container div:hover {
+    box-shadow: 3px 3px 10px 10px silver;
+}
+
 /* footer */
 
 footer {
@@ -325,6 +331,8 @@ footer {
 
 .social-links {
     text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
 }
 
 .social-links>li {
@@ -335,9 +343,17 @@ footer {
 .social-links i {
     color: #fff;
     font-size: 200%;
-    padding: 2%;
-    margin: 1%;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 1rem;
 }
+
+.social-links i:hover {
+    color: black;
+    background-color: #fff;
+}
+
+/*--------------Meet up page-----------------*/
 
 /* flip box colors */
 
@@ -448,6 +464,8 @@ footer {
     position: relative;
 
 }
+/*---------------contact us page-----------------*/
+
 
 /* contact form */
 
@@ -484,6 +502,8 @@ footer {
     width: 100%;
     background-size: cover;
 }
+/*------------------confirmation page----------------*/
+
 
 /* confirmation image */
 
@@ -507,19 +527,89 @@ footer {
     
 }
 
-/* media queries */
+/*-----------------media queries--------------------*/
+
+/* mobile phones size ? */
+
+@media screen and (max-width: 300px) {
+
+}
+
+
+
+/* tablets size ? */
+
+
+
 
 /* for large and medium screens size 1200px wide and down */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     #tips {
-        width: 75%;
-        height: 1200px;
+        width: 100vw;
+        height: 1000px;
         margin: 0 auto;
+        display: contents;
     }
 
     #middle {
         padding: 20px 0;
         margin: 0 auto;
+    }
+
+    .container {
+        width: 100vw;
+        display: inline-block;
+    }
+
+    #heading-tip-left {
+       float: none;
+       width: 75%;
+       margin: 0 auto;
+       height: 200px;
+    }
+
+    #heading-tip-right {
+        float: none;
+       width: 75%;
+       margin: 0 auto;
+       height: 200px;
+    }
+
+    #center-image {
+        float: none;
+       width: 40%;
+       margin: 0 auto;
+       height: 400px;
+       padding: 20px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+
+    #heading-tip-center {
+       float: none;
+       width: 75%;
+       margin: 0 auto;
+       height: 200px;
+       display: inline-block;
+       margin-top: 20px;
+    }
+} 
+
+@media scrren and (max-width: 1510px) {
+    .image-container {
+        float: none;
+        width: 50%;
+    }
+
+    #image-1, #image-2 {
+        width: 200px;
+        display: inline-block;
+        float: none;
+        margin: 0 auto;
+    }
+
+     .hidden-mobile{
+        display: none;
     }
 }
