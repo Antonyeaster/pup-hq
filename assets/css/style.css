@@ -118,13 +118,6 @@ h2 {
     text-align: center;
 }
 
-#hero-text-right,
-h2,
-p {
-    color: #fff;
-    text-align: center;
-}
-
 #hero-text-left {
     font-size: 75%;
     font-family: Jost, sans-serif;
@@ -144,23 +137,23 @@ p {
     font-size: 15px;
 }
 
-#hero-text-right {
-    font-size: 75%;
+.where-to-find-us {
+    font-size: 150%;
     font-family: Jost, sans-serif;
     letter-spacing: 3px;
-    width: 400px;
-    height: 225px;
-    padding-top: 40px;
-    padding-left: 5px;
-    background-color: rgba(0, 0, 102, .5);
-    bottom: 30px;
-    right: 50px;
-    position: absolute;
+    background-color: #000;
+    left: 100px;
+    bottom: 50px;
+    position: relative;
+    text-align: center;
     border-radius: 30px;
+    width: 300px;
+    box-shadow: 3px 3px 6px 6px #000066;
 }
 
-#hero-text-right p {
-    font-size: 15px;
+.where-to-find-us a {
+    color: #fff;
+    text-decoration: none;
 }
 
 /* tips section */
@@ -286,8 +279,8 @@ p {
 /* gallery section at the bottom of the page */
 
 .image-container>div {
-    margin: 22px;
-    display: inline-block;
+    float: left;
+    margin: 10px;
 }
 
 #image-1 {
@@ -313,7 +306,6 @@ p {
     background: url('../images/puppy-2-1340615.jpg') no-repeat center center;
     background-size: cover;
     width: 30%;
-    float: right;
     border: 3px solid #fff;
     border-radius: 10px;
 }
@@ -331,8 +323,6 @@ footer {
 
 .social-links {
     text-align: center;
-    border: 1px solid black;
-    border-radius: 50%;
 }
 
 .social-links>li {
@@ -532,20 +522,43 @@ footer {
 
 /*-----------------media queries--------------------*/
 
-/* mobile phones size ? */
+/* for large and medium screens size 1520px wide and down */
 
-@media screen and (max-width: 300px) {}
+@media screen and (max-width: 1520px) {
+    .image-container {
+        float: none;
+        width: 50%;
+    }
 
+    #image-1 #image-2 {
+        width: 300px;
+        display: inline-block;
+        float: none;
+        margin: 0 auto;
+    }
 
+    #image-2 {
+        float: right;
+    }
 
-/* tablets size ? */
+    .hidden-mobile {
+        display: none;
+    }
 
+    /* media queries for meet up page */
 
+    .flip-container {
+        display: block;
+        margin: 0 auto;
+
+    }
+}
 
 
 /* for large and medium screens size 1200px wide and down */
 
 @media screen and (max-width: 1300px) {
+
     #tips {
         width: 100vw;
         margin: 0 auto;
@@ -596,36 +609,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 1520px) {
-    .image-container {
-        float: none;
-        width: 50%;
-    }
-
-    #image-1 #image-2 {
-        width: 300px;
-        display: inline-block;
-        float: none;
-        margin: 0 auto;
-    }
-
-    #image-2 {
-        float: right;
-    }
-
-    .hidden-mobile {
-        display: none;
-    }
-
-    /* media queries for meet up page */
-
-    .flip-container {
-        display: block;
-        margin: 0 auto;
-
-    }
-}
-
 /* screen size 970px and above */
 
 @media screen and (max-width: 970px) {
@@ -651,6 +634,10 @@ footer {
         font-size: 150%;
         margin-right: 5px;
     }
+
+    .where-to-find-us {
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width: 470px) {
@@ -659,15 +646,10 @@ footer {
         margin: 0 auto;
     }
 
-    .social-links > li {
+    .social-links li {
         font-size: 50%;
         display: inline;
         clear: both;
-        line-height: 25px;
-        text-align: center;
-        display: inline-block;
-        
-
     }
 
     #page-links {
@@ -677,7 +659,10 @@ footer {
         line-height: 25px;
         margin-bottom: 10px;
         padding: 10px;
-        font-size: medium;
-     }
-}
+        font-size: 90%;
+    }
 
+    div, .where-to-find-us {
+        float: left;
+    }
+}
