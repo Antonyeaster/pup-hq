@@ -267,7 +267,7 @@ p {
     border-radius: 10px;
     padding: 20px;
     border: 3px solid #fff;
-    
+
 }
 
 #heading-tip-center>p {
@@ -427,6 +427,7 @@ footer {
     backface-visibility: hidden;
     border-radius: 10px;
 }
+
 .social-training-back {
     background-color: silver;
     transform: rotateX(180deg);
@@ -464,6 +465,7 @@ footer {
     position: relative;
 
 }
+
 /*---------------contact us page-----------------*/
 
 
@@ -502,6 +504,7 @@ footer {
     width: 100%;
     background-size: cover;
 }
+
 /*------------------confirmation page----------------*/
 
 
@@ -524,16 +527,14 @@ footer {
     margin-left: 40px;
     padding: 20px;
     margin-top: 100px;
-    
+
 }
 
 /*-----------------media queries--------------------*/
 
 /* mobile phones size ? */
 
-@media screen and (max-width: 300px) {
-
-}
+@media screen and (max-width: 300px) {}
 
 
 
@@ -562,38 +563,38 @@ footer {
     }
 
     #heading-tip-left {
-       float: none;
-       width: 75%;
-       margin: 0 auto;
-       height: 200px;
+        float: none;
+        width: 75%;
+        margin: 0 auto;
+        height: 200px;
     }
 
     #heading-tip-right {
         float: none;
-       width: 75%;
-       margin: 0 auto;
-       height: 200px;
+        width: 75%;
+        margin: 0 auto;
+        height: 200px;
     }
 
     #center-image {
         float: none;
-       width: 40%;
-       margin: 0 auto;
-       height: 400px;
-       padding: 20px;
-       margin-top: 20px;
-       margin-bottom: 20px;
+        width: 40%;
+        margin: 0 auto;
+        height: 400px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     #heading-tip-center {
-       float: none;
-       width: 75%;
-       margin: 0 auto;
-       height: 200px;
-       display: inline-block;
-       margin-top: 20px;
+        float: none;
+        width: 75%;
+        margin: 0 auto;
+        height: 200px;
+        display: inline-block;
+        margin-top: 20px;
     }
-} 
+}
 
 @media screen and (max-width: 1520px) {
     .image-container {
@@ -612,12 +613,12 @@ footer {
         float: right;
     }
 
-     .hidden-mobile{
+    .hidden-mobile {
         display: none;
     }
 
     /* media queries for meet up page */
-    
+
     .flip-container {
         display: block;
         margin: 0 auto;
@@ -628,35 +629,55 @@ footer {
 /* screen size 970px and above */
 
 @media screen and (max-width: 970px) {
-    #heading-tip-center, #heading-tip-right, #heading-tip-left  {
+
+    #heading-tip-center,
+    #heading-tip-right,
+    #heading-tip-left {
         height: 300px;
-     }
+    }
 
-     #center-image {
+    #center-image {
         width: 50%;
-     }
+    }
+}
+
+@media screen and (max-width: 660px) {
+    #page-links {
+        float: left;
+        margin-left: 10px;
     }
 
-    @media screen and (max-width: 660px) {
-        #page-links {
-            float: left;
-            margin-left: 10px;
-        }
+    .social-links i {
+        font-size: 150%;
+        margin-right: 5px;
+    }
+}
 
-        .social-links i {
-            font-size: 150%;
-            margin-right: 5px;
-        }
+@media screen and (max-width: 470px) {
+    iframe {
+        width: 100vw;
+        margin: 0 auto;
     }
 
-    @media screen and (max-width: 390px ) and (min-width: 500px){
-        iframe {
-            width: 100vw;
-            margin: 0 auto;
-        }
-        .social-links i {
-            font-size: 75%;
-            margin-right: 5px;
+    .social-links > li {
+        font-size: 50%;
+        display: inline;
+        clear: both;
+        line-height: 25px;
+        text-align: center;
+        display: inline-block;
         
+
     }
-    }
+
+    #page-links {
+        float: left;
+        margin-left: 30px;
+        clear: both;
+        line-height: 25px;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: medium;
+     }
+}
+
