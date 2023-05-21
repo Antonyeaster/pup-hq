@@ -8,6 +8,7 @@
 
 html {
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 body {
@@ -30,7 +31,7 @@ h2 {
     font-family: Jost, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #fff;
+    color: rgb(252, 4, 4);
 }
 
 
@@ -60,7 +61,7 @@ h2 {
 
 #page-links a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(252, 4, 4);
 }
 
 #page-links a:hover {
@@ -112,25 +113,29 @@ h2 {
 
 /* information boxes inside hero image */
 
-#hero-text-left,
-#hero-text-left h2 {
+#hero-text-left, h2 {
     color: #fff;
     text-align: center;
 }
 
 #hero-text-left {
-    font-size: 75%;
+    font-size: 80%;
     font-family: Jost, sans-serif;
     letter-spacing: 3px;
     width: 400px;
-    height: 225px;
-    padding-top: 20px;
+    height: 325px;
+    padding-top: 10px;
     padding-left: 5px;
     background-color: rgba(0, 0, 102, .5);
     top: 30px;
     left: 50px;
     position: absolute;
     border-radius: 30px;
+}
+
+#tips-section, a {
+    text-decoration: none;
+    color: rgb(252, 4, 4);
 }
 
 #hero-text-left p {
@@ -141,14 +146,14 @@ h2 {
     font-size: 150%;
     font-family: Jost, sans-serif;
     letter-spacing: 3px;
-    background-color: #000;
-    left: 100px;
+    background-color: rgb(252, 4, 4); 
+    margin-left: 10px;
     bottom: 50px;
     position: relative;
     text-align: center;
     border-radius: 30px;
     width: 300px;
-    box-shadow: 3px 3px 6px 6px #000066;
+    box-shadow: 3px 3px 6px 6px #fff;
 }
 
 .where-to-find-us a {
@@ -280,7 +285,7 @@ h2 {
 
 .image-container>div {
     float: left;
-    margin: 10px;
+    margin: 0 auto;
 }
 
 #image-1 {
@@ -525,25 +530,6 @@ footer {
 /* for large and medium screens size 1520px wide and down */
 
 @media screen and (max-width: 1520px) {
-    .image-container {
-        float: none;
-        width: 50%;
-    }
-
-    #image-1 #image-2 {
-        width: 300px;
-        display: inline-block;
-        float: none;
-        margin: 0 auto;
-    }
-
-    #image-2 {
-        float: right;
-    }
-
-    .hidden-mobile {
-        display: none;
-    }
 
     /* media queries for meet up page */
 
@@ -607,9 +593,27 @@ footer {
         display: inline-block;
         margin-top: 20px;
     }
+
+    
+    #hero-text-left p {
+        font-size: 60%;
+        padding: 2px;
+    }
+
+    #hero-text-left {
+        top: 2px;
+        left: 2px;
+        height: 150px;
+        text-align: left;
+        
+    }
+
+    #hero-text-left br {
+        display: none
+    }
 }
 
-/* screen size 970px and above */
+/* screen size 970px and below */
 
 @media screen and (max-width: 970px) {
 
@@ -621,6 +625,12 @@ footer {
 
     #center-image {
         width: 50%;
+    }
+
+    .image-container {
+        float: none;
+        width: 100%;
+        position: relative; 
     }
 }
 
@@ -637,6 +647,12 @@ footer {
 
     .where-to-find-us {
         margin-left: 20px;
+    }
+
+    #heading-tip-center,
+    #heading-tip-right,
+    #heading-tip-left {
+        height: 500px;
     }
 }
 
@@ -662,7 +678,22 @@ footer {
         font-size: 90%;
     }
 
-    div, .where-to-find-us {
-        float: left;
+    #hero-text-left p {
+        font-size: 30%;
+        padding: 2px;
     }
+
+    #hero-text-left {
+        top: 2px;
+        left: 2px;
+        height: 125px;
+        width: fit-content;
+        
+    }
+
+    #hero-text-left br {
+        display: none
+    }
+
+
 }
