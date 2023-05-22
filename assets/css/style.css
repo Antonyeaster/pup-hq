@@ -113,7 +113,8 @@ h2 {
 
 /* information boxes inside hero image */
 
-#hero-text-left, h2 {
+#hero-text-left,
+h2 {
     color: #fff;
     text-align: center;
 }
@@ -133,7 +134,8 @@ h2 {
     border-radius: 30px;
 }
 
-#tips-section, a {
+#tips-section,
+a {
     text-decoration: none;
     color: rgb(252, 4, 4);
 }
@@ -146,7 +148,7 @@ h2 {
     font-size: 150%;
     font-family: Jost, sans-serif;
     letter-spacing: 3px;
-    background-color: rgb(252, 4, 4); 
+    background-color: rgb(252, 4, 4);
     margin-left: 10px;
     bottom: 50px;
     position: relative;
@@ -321,7 +323,8 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid #fff;
-    border-radius: 10px;;
+    border-radius: 10px;
+    ;
 }
 
 .image-container div:hover {
@@ -342,6 +345,8 @@ footer {
 .social-links>li {
     display: inline;
     padding-right: 30px;
+    align-items: center;
+
 }
 
 .social-links i {
@@ -467,7 +472,11 @@ footer {
 #location {
     margin-top: 30px;
     position: relative;
+}
 
+#location h2 {
+    margin-bottom: 20px;
+    color: rgb(252, 4, 4);
 }
 
 /*---------------contact us page-----------------*/
@@ -604,7 +613,7 @@ footer {
         margin-top: 20px;
     }
 
-    
+
     #hero-text-left p {
         font-size: 60%;
         padding: 2px;
@@ -615,7 +624,7 @@ footer {
         left: 2px;
         height: 150px;
         text-align: left;
-        
+
     }
 
     #hero-text-left br {
@@ -637,11 +646,13 @@ footer {
         width: 50%;
     }
 
-    #confirmation-message, h2 {
+    #confirmation-message,
+    h2 {
         font-size: 100%;
     }
 
-    #confirmation-message, p {
+    #confirmation-message,
+    p {
         font-size: 75%;
     }
 }
@@ -660,7 +671,10 @@ footer {
         margin-left: 20px;
 
     }
-    #image-1, #image-2, #image-3 {
+
+    #image-1,
+    #image-2,
+    #image-3 {
         float: none;
         margin: 0 auto;
         width: 75%;
@@ -743,7 +757,7 @@ footer {
         left: 2px;
         height: 125px;
         width: fit-content;
-        
+
     }
 
     #hero-text-left br {
