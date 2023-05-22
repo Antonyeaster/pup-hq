@@ -283,36 +283,45 @@ h2 {
 
 /* gallery section at the bottom of the page */
 
-.image-container>div {
-    float: left;
-    margin: 0 auto;
+.image-container {
+    width: 100%;
+
 }
 
 #image-1 {
-    height: 275px;
-    background: url('../images/puppy-2-1340615.jpg') no-repeat center center;
-    background-size: cover;
+    float: left;
     width: 30%;
+    height: 300px;
+    background: url('../images/puppy-2-1340615.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 3px solid #fff;
     border-radius: 10px;
 }
 
 #image-2 {
-    height: 275px;
-    background: url('../images/puppy-2-1340615.jpg') no-repeat center center;
-    background-size: cover;
+    float: right;
     width: 30%;
+    height: 300px;
+    background: url('../images/puppy-2-1340615.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 3px solid #fff;
     border-radius: 10px;
 }
 
 #image-3 {
-    height: 275px;
-    background: url('../images/puppy-2-1340615.jpg') no-repeat center center;
-    background-size: cover;
+    margin: 0 auto;
     width: 30%;
+    height: 300px;
+    background: url('../images/puppy-2-1340615.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 3px solid #fff;
-    border-radius: 10px;
+    border-radius: 10px;;
 }
 
 .image-container div:hover {
@@ -332,7 +341,7 @@ footer {
 
 .social-links>li {
     display: inline;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 .social-links i {
@@ -516,12 +525,13 @@ footer {
 /* confirmation message box */
 
 #confirmation-message {
-
+    font-size: 100%;
     background: rgba(0, 0, 102, .5);
     width: 300px;
     margin-left: 40px;
     padding: 20px;
-    margin-top: 100px;
+    margin: 20px;
+    color: #fff;
 
 }
 
@@ -541,7 +551,7 @@ footer {
 }
 
 
-/* for large and medium screens size 1200px wide and down */
+/* for large and medium screens size 1300px wide and down */
 
 @media screen and (max-width: 1300px) {
 
@@ -620,17 +630,19 @@ footer {
     #heading-tip-center,
     #heading-tip-right,
     #heading-tip-left {
-        height: 300px;
+        height: 200px;
     }
 
     #center-image {
         width: 50%;
     }
 
-    .image-container {
-        float: none;
-        width: 100%;
-        position: relative; 
+    #confirmation-message, h2 {
+        font-size: 100%;
+    }
+
+    #confirmation-message, p {
+        font-size: 75%;
     }
 }
 
@@ -638,6 +650,16 @@ footer {
     #page-links {
         float: left;
         margin-left: 10px;
+    }
+
+    .image-container > div {
+        height: 200px;
+
+    }
+
+    #center-image {
+        width: 60%;
+        height: 300px;
     }
 
     .social-links i {
@@ -652,11 +674,30 @@ footer {
     #heading-tip-center,
     #heading-tip-right,
     #heading-tip-left {
-        height: 500px;
+        height: 250px;
+    }
+
+    #location {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .flip-container {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+
     }
 }
 
 @media screen and (max-width: 470px) {
+
+    #heading-tip-center,
+    #heading-tip-right,
+    #heading-tip-left {
+        height: 275px;
+    }
+
     iframe {
         width: 100vw;
         margin: 0 auto;
