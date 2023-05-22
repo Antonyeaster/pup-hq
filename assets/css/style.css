@@ -290,9 +290,9 @@ h2 {
 
 #image-1 {
     float: left;
-    width: 30%;
+    width: 32%;
     height: 300px;
-    background: url('../images/puppy-2-1340615.jpg');
+    background: url('../images/past-puppy-student.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -302,9 +302,9 @@ h2 {
 
 #image-2 {
     float: right;
-    width: 30%;
+    width: 32%;
     height: 300px;
-    background: url('../images/puppy-2-1340615.jpg');
+    background: url('../images/past-puppy-student\ 1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -314,9 +314,9 @@ h2 {
 
 #image-3 {
     margin: 0 auto;
-    width: 30%;
+    width: 32%;
     height: 300px;
-    background: url('../images/puppy-2-1340615.jpg');
+    background: url('../images/Past-puppy-student-2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
