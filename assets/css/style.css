@@ -419,6 +419,14 @@ footer {
     margin: 0 auto;
 }
 
+/* flip heading */
+
+.flip-heading {
+    margin-top: 60px;
+    color: rgb(252, 4, 4);
+    font-size: 200%;
+}
+
 /* flip box social group */
 
 .social-training-front {
