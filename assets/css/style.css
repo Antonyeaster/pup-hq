@@ -537,7 +537,7 @@ footer {
 
 /*-----------------media queries--------------------*/
 
-/* for large and medium screens size 1520px wide and down */
+/* media queries screens size 1520px wide and down */
 
 @media screen and (max-width: 1520px) {
 
@@ -551,7 +551,7 @@ footer {
 }
 
 
-/* for large and medium screens size 1300px wide and down */
+/* media queries for screens size 1300px wide and down */
 
 @media screen and (max-width: 1300px) {
 
@@ -623,7 +623,7 @@ footer {
     }
 }
 
-/* screen size 970px and below */
+/* media queries for screen size 970px and below */
 
 @media screen and (max-width: 970px) {
 
@@ -646,15 +646,26 @@ footer {
     }
 }
 
+/* media queries for screen size 660px and below */
+
+
 @media screen and (max-width: 660px) {
     #page-links {
         float: left;
         margin-left: 10px;
     }
 
-    .image-container > div {
-        height: 200px;
+    .image-container {
+        height: 1100px;
+        margin-left: 20px;
 
+    }
+    #image-1, #image-2, #image-3 {
+        float: none;
+        margin: 0 auto;
+        width: 75%;
+        margin-top: 20px;
+        padding: 20px;
     }
 
     #center-image {
@@ -689,6 +700,9 @@ footer {
 
     }
 }
+
+/* media queries for screen size 470px and below */
+
 
 @media screen and (max-width: 470px) {
 
