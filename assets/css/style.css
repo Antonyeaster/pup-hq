@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@300&display=swap');
 
+/* full site styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@
 
 html {
     min-height: 100vh;
-    min-width: 98vw;
+    min-width: 100vw;
 }
 
 body {
@@ -16,12 +18,9 @@ body {
     font-weight: 400;
     background: #000;
     min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
-}
-
-#hero-image {
-    background-image: url('../images/hero-image-puphq.webp') no-repeat center center;
 }
 
 /* headings and logo */
@@ -33,7 +32,6 @@ h2 {
     letter-spacing: 3px;
     color: rgb(252, 4, 4);
 }
-
 
 #name {
     float: left;
@@ -73,7 +71,6 @@ h2 {
 
 .open {
     border-bottom: 2px solid #fff;
-
 }
 
 /* hero image */
@@ -92,7 +89,6 @@ h2 {
     height: 600px;
     overflow: hidden;
     position: relative;
-
 
     /* hero image will zoom out on page load */
 
@@ -134,15 +130,19 @@ h2 {
     border-radius: 30px;
 }
 
+#hero-text-left p {
+    font-size: 15px;
+}
+
+/* link to jump straight to tips section */
+
 #tips-section,
 a {
     text-decoration: none;
     color: rgb(252, 4, 4);
 }
 
-#hero-text-left p {
-    font-size: 15px;
-}
+/* link to go straight to meet up page */
 
 .where-to-find-us {
     font-size: 150%;
@@ -163,13 +163,6 @@ a {
     text-decoration: none;
 }
 
-/* tips section */
-
-#tips {
-    width: 100%;
-    overflow: hidden;
-}
-
 /* middle heading of the home page */
 
 #middle {
@@ -179,12 +172,16 @@ a {
     margin: 20px;
 }
 
-/* left side tip */
+/* tips section */
+
+#tips {
+    width: 100%;
+}
+
 .container {
     text-align: center;
     padding: 20px;
     display: inline-block;
-
 }
 
 .container>div {
@@ -193,8 +190,7 @@ a {
     background-color: silver;
 }
 
-#heading-tip-left {
-    float: left;
+.tips-blanket {
     width: 350px;
     height: 400px;
     font-size: 100%;
@@ -202,42 +198,32 @@ a {
     border-radius: 10px;
     text-align: center;
     padding: 20px;
-
 }
 
-#heading-tip-left>p {
+/* left side tip */
+
+#heading-tip-left {
+    float: left;
+}
+
+/* left and right tip */
+
+#heading-tip-left,
+#heading-tip-right>p {
     text-align: center;
     color: #000066;
 }
 
-#heading-tip-left h3 {
+#heading-tip-left,
+#heading-tip-right>h3 {
     border-bottom: 3px solid #000066;
     margin: 5px;
-
 }
 
 /* right side tip */
 
 #heading-tip-right {
     float: right;
-    width: 350px;
-    height: 400px;
-    font-size: 100%;
-    border: 3px solid #fff;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-}
-
-#heading-tip-right>p {
-    text-align: center;
-    color: #000066;
-}
-
-#heading-tip-right h3 {
-    border-bottom: 3px solid #000066;
-    margin: 5px;
-
 }
 
 /* center image */
@@ -267,7 +253,6 @@ a {
     border-radius: 10px;
     padding: 20px;
     border: 3px solid #fff;
-
 }
 
 #heading-tip-center>p {
@@ -279,15 +264,12 @@ a {
 #heading-tip-center h3 {
     border-bottom: 3px solid #000066;
     margin: 5px;
-
 }
-
 
 /* gallery section at the bottom of the page */
 
 .image-container {
     width: 100%;
-
 }
 
 #image-1 {
@@ -324,7 +306,6 @@ a {
     background-size: cover;
     border: 3px solid #fff;
     border-radius: 10px;
-    ;
 }
 
 .image-container div:hover {
@@ -346,7 +327,6 @@ footer {
     display: inline;
     padding-right: 30px;
     align-items: center;
-
 }
 
 .social-links i {
@@ -505,7 +485,9 @@ footer {
     border-radius: 30px;
 }
 
-#email, #lname, #fname {
+#email,
+#lname,
+#fname {
     width: 100%;
     border-radius: 10px;
     height: 30px;
@@ -584,6 +566,10 @@ textarea {
 /* media queries for screens size 1300px wide and down */
 
 @media screen and (max-width: 1300px) {
+
+    #outer {
+        width: 100%;
+    }
 
     #tips {
         width: 100vw;
@@ -682,6 +668,11 @@ textarea {
 
 
 @media screen and (max-width: 660px) {
+
+    #outer {
+        width: 100%;
+    }
+
     #page-links {
         float: left;
         margin-left: 10px;
