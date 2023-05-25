@@ -230,13 +230,8 @@ a {
 #center-image {
     display: inline-block;
     margin: 0 auto;
-    width: 350px;
-    height: 400px;
     background: url('../images/puppy-tips.webp') no-repeat center center;
     background-size: cover;
-    border: 3px solid #fff;
-    border-radius: 10px;
-    padding: 20px;
 }
 
 /* center tip */
@@ -244,14 +239,9 @@ a {
 #heading-tip-center {
     width: 75%;
     height: 200px;
-    background-color: silver;
     clear: both;
     margin: 0 auto;
     margin-top: 20px;
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px;
-    border: 3px solid #fff;
 }
 
 #heading-tip-center>p {
@@ -272,40 +262,29 @@ a {
     margin-top: 20px;
 }
 
-#image-1 {
-    float: left;
+.image-blanket {
     width: 32%;
     height: 300px;
-    background: url('../images/past-puppy-student.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border: 3px solid #fff;
     border-radius: 10px;
+}
+
+#image-1 {
+    float: left;
+    background: url('../images/past-puppy-student.webp') no-repeat center center;
+    background-size: cover;
 }
 
 #image-2 {
     float: right;
-    width: 32%;
-    height: 300px;
-    background: url('../images/past-puppy-student-1.webp');
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('../images/past-puppy-student-1.webp') no-repeat center center;
     background-size: cover;
-    border: 3px solid #fff;
-    border-radius: 10px;
 }
 
 #image-3 {
     margin: 0 auto;
-    width: 32%;
-    height: 300px;
-    background: url('../images/past-puppy-student-2.webp');
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('../images/past-puppy-student-2.webp') no-repeat center center;
     background-size: cover;
-    border: 3px solid #fff;
-    border-radius: 10px;
 }
 
 .image-container div:hover {
@@ -342,7 +321,7 @@ footer {
     background-color: #fff;
 }
 
-/*--------------Meet up page-----------------*/
+/*Meet up page with flip boxes and google map*/
 
 /* flip box section  */
 #flip-section {
@@ -350,14 +329,31 @@ footer {
     text-align: center;
 }
 
-/* flip box colors */
+/* flip heading */
+
+.flip-heading {
+    margin-top: 60px;
+    color: rgb(252, 4, 4);
+    font-size: 200%;
+}
+
+#meet-up-info {
+    font-size: 150%;
+    color: rgb(252, 4, 4);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+/* flip box text colors */
 
 .flip-color {
     color: #000066;
     font-weight: 150;
 }
 
-/* flip box lead training */
+/*style for all three flip boxes*/
 
 .flip-container {
     background-color: transparent;
@@ -383,8 +379,7 @@ footer {
     transform: rotateX(180deg);
 }
 
-.lead-training-front,
-.lead-training-back {
+.flip-blanket {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -392,35 +387,19 @@ footer {
     border-radius: 10px;
 }
 
-.lead-training-front {
-    background-color: silver;
-    color: black;
-    background: url('../images/lead-training.webp') no-repeat center center;
-    background-size: cover;
-}
-
-.lead-training-back {
+.flip-back {
     background-color: silver;
     transform: rotateX(180deg);
     margin: 0 auto;
 }
 
-/* flip heading */
+/* flip box lead training */
 
-.flip-heading {
-    margin-top: 60px;
-    color: rgb(252, 4, 4);
-    font-size: 200%;
-}
-
-#meet-up-info {
-    font-size: 150%;
-    color: rgb(252, 4, 4);
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 40px;
-    padding: 10px;
-
+.lead-training-front {
+    background-color: silver;
+    color: black;
+    background: url('../images/lead-training.webp') no-repeat center center;
+    background-size: cover;
 }
 
 /* flip box social group */
@@ -432,21 +411,6 @@ footer {
     background-size: cover;
 }
 
-.social-training-front,
-.social-training-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-}
-
-.social-training-back {
-    background-color: silver;
-    transform: rotateX(180deg);
-    margin: 0 auto;
-}
-
 /* clicker training  */
 
 .clicker-training-front {
@@ -454,21 +418,6 @@ footer {
     color: black;
     background: url('../images/clicker-training.webp') no-repeat center center;
     background-size: cover;
-}
-
-.clicker-training-front,
-.clicker-training-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-}
-
-.clicker-training-back {
-    background-color: silver;
-    transform: rotateX(180deg);
-    margin: 0 auto;
 }
 
 /* location map */
@@ -561,10 +510,8 @@ textarea {
     padding: 20px;
     margin: 20px;
     color: #fff;
-
+    border-radius: 30px;
 }
-
-/*-----------------media queries--------------------*/
 
 /* media queries screens size 1520px wide and down */
 
@@ -575,7 +522,6 @@ textarea {
     .flip-container {
         display: block;
         margin: 0 auto;
-
     }
 }
 
