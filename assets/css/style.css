@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@300&display=swap');
 
-/* full site styling */
+/* full webpage styling */
 
 * {
     margin: 0;
@@ -39,7 +39,7 @@ h2 {
     font-size: 300%;
 }
 
-/* navigation links */
+/* navigation links in header */
 
 #name,
 #page-links {
@@ -163,7 +163,7 @@ a {
     text-decoration: none;
 }
 
-/* middle heading of the home page */
+/* tips section heading */
 
 #middle {
     font-size: 150%;
@@ -255,7 +255,7 @@ a {
     margin: 5px;
 }
 
-/* gallery section at the bottom of the page */
+/* gallery section at the bottom of home page */
 
 .image-container {
     width: 100%;
@@ -269,11 +269,15 @@ a {
     border-radius: 10px;
 }
 
+/* image on the left */
+
 #image-1 {
     float: left;
     background: url('../images/past-puppy-student.webp') no-repeat center center;
     background-size: cover;
 }
+
+/* image on the right */
 
 #image-2 {
     float: right;
@@ -281,11 +285,15 @@ a {
     background-size: cover;
 }
 
+/* image in the center */
+
 #image-3 {
     margin: 0 auto;
     background: url('../images/past-puppy-student-2.webp') no-repeat center center;
     background-size: cover;
 }
+
+/* hover effect */
 
 .image-container div:hover {
     box-shadow: 3px 3px 10px 10px silver;
@@ -411,7 +419,7 @@ footer {
     background-size: cover;
 }
 
-/* clicker training  */
+/* flip box clicker training  */
 
 .clicker-training-front {
     background-color: silver;
@@ -433,7 +441,7 @@ footer {
     padding: 10px;
 }
 
-/*---------------contact us page-----------------*/
+/* contact us page */
 
 
 /* contact form */
@@ -487,7 +495,7 @@ textarea {
     background-size: cover;
 }
 
-/*------------------confirmation page----------------*/
+/* confirmation page */
 
 
 /* confirmation image */
@@ -517,14 +525,11 @@ textarea {
 
 @media screen and (max-width: 1520px) {
 
-    /* media queries for meet up page */
-
     .flip-container {
         display: block;
         margin: 0 auto;
     }
 }
-
 
 /* media queries for screens size 1300px wide and down */
 
@@ -629,7 +634,6 @@ textarea {
 
 /* media queries for screen size 660px and below */
 
-
 @media screen and (max-width: 660px) {
 
     #outer {
@@ -690,7 +694,6 @@ textarea {
 
 /* media queries for screen size 470px and below */
 
-
 @media screen and (max-width: 470px) {
 
     #heading-tip-center,
@@ -736,6 +739,4 @@ textarea {
     #hero-text-left br {
         display: none
     }
-
-
 }
