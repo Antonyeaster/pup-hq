@@ -358,7 +358,7 @@ footer {
     width: 450px;
     height: 300px;
     perspective: 1000px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
     display: inline-block;
     padding: 25px;
@@ -405,6 +405,15 @@ footer {
     margin-top: 60px;
     color: rgb(252, 4, 4);
     font-size: 200%;
+}
+
+#meet-up-info {
+    font-size: 150%;
+    color: rgb(252, 4, 4);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+
 }
 
 /* flip box social group */
