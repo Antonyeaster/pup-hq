@@ -257,6 +257,15 @@ a {
 
 /* gallery section at the bottom of home page */
 
+#past-students {
+    font-size: 150%;
+    color: rgb(252, 4, 4);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px; 
+}
+
 .image-container {
     width: 100%;
     margin-top: 20px;
