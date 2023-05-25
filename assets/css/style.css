@@ -413,6 +413,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     margin-top: 40px;
+    padding: 10px;
 
 }
 
@@ -474,6 +475,7 @@ footer {
 #location h2 {
     margin-bottom: 20px;
     color: rgb(252, 4, 4);
+    padding: 10px;
 }
 
 /*---------------contact us page-----------------*/
