@@ -394,6 +394,7 @@ footer {
 
 .flip-container:hover .flip-inner {
     transform: rotateX(180deg);
+    cursor: pointer;
 }
 
 .flip-blanket {
@@ -402,6 +403,8 @@ footer {
     height: 100%;
     backface-visibility: hidden;
     border-radius: 10px;
+    -webkit-backface-visibility: hidden;
+    /*Safari*/
 }
 
 .flip-back {
