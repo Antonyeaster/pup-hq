@@ -394,7 +394,6 @@ footer {
 
 .flip-container:hover .flip-inner {
     transform: rotateX(180deg);
-    cursor: pointer;
 }
 
 .flip-blanket {
@@ -403,8 +402,6 @@ footer {
     height: 100%;
     backface-visibility: hidden;
     border-radius: 10px;
-    -webkit-backface-visibility: hidden;
-    /*Safari*/
 }
 
 .flip-back {
@@ -418,8 +415,10 @@ footer {
 .lead-training-front {
     background-color: silver;
     color: black;
-    background: url('../images/lead-training.webp') no-repeat center center;
+    background-image: url('../images/lead-training.webp');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* flip box social group */
