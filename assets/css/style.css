@@ -128,7 +128,7 @@ h2 {
     left: 50px;
     position: absolute;
     border-radius: 30px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #hero-text-left p {
