@@ -376,7 +376,6 @@ footer {
     background-color: transparent;
     width: 450px;
     height: 300px;
-    perspective: 1000px;
     margin-top: 50px;
     margin-bottom: 100px;
     display: inline-block;
@@ -458,7 +457,7 @@ footer {
     height: 100%;
     border-radius: 10px;
     object-fit: cover;
-} 
+}
 
 /* location map */
 
