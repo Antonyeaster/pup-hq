@@ -415,10 +415,17 @@ footer {
 .lead-training-front {
     background-color: silver;
     color: black;
-    background-image: url('../images/lead-training.webp');
+    /* background-image: url('../images/lead-training.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
+}
+
+.lead-training-front img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 /* flip box social group */
@@ -426,8 +433,15 @@ footer {
 .social-training-front {
     background-color: silver;
     color: black;
-    background: url('../images/socializing.webp') no-repeat center center;
-    background-size: cover;
+    /*background: url('../images/socializing.webp') no-repeat center center;
+    background-size: cover;*/
+}
+
+.social-training-front img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 /* flip box clicker training  */
@@ -435,9 +449,16 @@ footer {
 .clicker-training-front {
     background-color: silver;
     color: black;
-    background: url('../images/clicker-training.webp') no-repeat center center;
-    background-size: cover;
+    /* background: url('../images/clicker-training.webp') no-repeat center center;
+    background-size: cover;*/
 }
+
+.clicker-training-front img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+} 
 
 /* location map */
 
