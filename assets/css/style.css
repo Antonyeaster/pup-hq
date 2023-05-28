@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@300&display=swap');
+/* google fonts */
 
-/* full webpage styling */
+/* full website styling */
 
 * {
     margin: 0;
@@ -417,10 +418,6 @@ footer {
 .lead-training-front {
     background-color: silver;
     color: black;
-    /* background-image: url('../images/lead-training.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
 }
 
 .lead-training-front img {
@@ -435,8 +432,6 @@ footer {
 .social-training-front {
     background-color: silver;
     color: black;
-    /*background: url('../images/socializing.webp') no-repeat center center;
-    background-size: cover;*/
 }
 
 .social-training-front img {
@@ -451,8 +446,6 @@ footer {
 .clicker-training-front {
     background-color: silver;
     color: black;
-    /* background: url('../images/clicker-training.webp') no-repeat center center;
-    background-size: cover;*/
 }
 
 .clicker-training-front img {
@@ -525,6 +518,7 @@ textarea {
     color: #000;
 }
 
+/* contact us image */
 
 #contact-background {
     background: url('../images/contact-us-2.webp') no-repeat center center;
