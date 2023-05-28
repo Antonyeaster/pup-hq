@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font-family: Poppins;
+    font-family: Poppins sans-serif;
     font-weight: 400;
     background: #000;
     min-height: 100vh;
@@ -285,7 +285,7 @@ a {
 
 #image-1 {
     float: left;
-    background: url('../images/past-puppy-student.webp') no-repeat center center;
+    background: url('../images/gallery-1.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -293,7 +293,7 @@ a {
 
 #image-2 {
     float: right;
-    background: url('../images/past-puppy-student-1.webp') no-repeat center center;
+    background: url('../images/gallery-3.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -301,7 +301,7 @@ a {
 
 #image-3 {
     margin: 0 auto;
-    background: url('../images/past-puppy-student-2.webp') no-repeat center center;
+    background: url('../images/gallery-2.webp') no-repeat center center;
     background-size: cover;
 }
 
