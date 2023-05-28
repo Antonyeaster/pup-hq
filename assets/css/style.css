@@ -116,8 +116,7 @@ h2 {
 }
 
 #hero-text-left {
-    font-size: 80%;
-    font-family: Jost, sans-serif;
+    font-size: 120%;
     letter-spacing: 3px;
     width: 400px;
     height: 325px;
@@ -132,7 +131,7 @@ h2 {
 }
 
 #hero-text-left p {
-    font-size: 15px;
+    font-size: 75%;
 }
 
 /* link to jump straight to tips section */
@@ -410,6 +409,7 @@ footer {
     background-color: silver;
     transform: rotateX(180deg);
     margin: 0 auto;
+    font-size: 110%;
 }
 
 /* flip box lead training */
