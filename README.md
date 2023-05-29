@@ -5,6 +5,8 @@ PUP HQ will be available to any one and any puppy wanting to learn with times av
 
 ![Am I Responsive](/documentation/testing/am-i-responsive.png)
 
+[View PUP HQ on Github pages](https://antonyeaster.github.io/pup-hq/)
+
 ## Contents
 
 * [User Experience](#User-Experience-UX)
