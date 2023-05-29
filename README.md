@@ -47,7 +47,7 @@ PUP HQ will be available to any one and any puppy wanting to learn with times av
 
 ## User Experience (UX)
 
-### Intitial Discussion
+### Initial Discussion
 
 PUP HQ is a club where you can take your puppy to learn the essential everyday life behaviours and habits. Everybody can see the tips available in the tips section and if they wish everybody is welcome to come to a session.
 
