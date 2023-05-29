@@ -117,8 +117,7 @@ h2 {
 }
 
 #hero-text-left {
-    font-size: 120%;
-    letter-spacing: 3px;
+    font-size: 135%;
     width: 400px;
     height: 325px;
     padding-top: 10px;
@@ -193,7 +192,7 @@ a {
 .tips-blanket {
     width: 350px;
     height: 400px;
-    font-size: 100%;
+    font-size: 120%;
     border: 3px solid #fff;
     border-radius: 10px;
     text-align: center;
@@ -216,6 +215,7 @@ a {
 
 .tips-head {
     border-bottom: 3px solid #000066;
+    color: #000066;
 }
 
 .tips-blanket {
