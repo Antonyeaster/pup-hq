@@ -7,7 +7,7 @@ PUP HQ will be available to any one and any puppy wanting to learn with times av
 
 ## Contents
 
-* [User Experience](#User-Experience-UK)
+* [User Experience](#User-Experience-UX)
   * [Initial Discussion](#Initial-Discussion)
   * [User Stories](#User-Stories)
 
@@ -41,7 +41,7 @@ PUP HQ will be available to any one and any puppy wanting to learn with times av
   * [Full Testing](#Full-Testing)
 
 * [Credits](#Credits) 
-  * [Contents](#Contents)
+  * [Content](#Content)
   * [Code Help](#Code-Help)
   * [Acknowledgments](#Acknowledgments)
 
@@ -110,10 +110,10 @@ Google Fonts was used for the following fonts:
 
 The wireframes were created on [Balsamiq](https://balsamiq.cloud/s3di521/projects)
 
-[Home Page](/documentation/balsamiq-wireframe-home.png)
-[Meet Up Page](/documentation/balsamiq-wireframe-meetup.png)
-[Contact Us Page](/documentation/balsamiq-wireframe-contactus.png)
-[Confirmation Page](/documentation/balsamiq-wireframe-confirmation.png)
+  * [Home Page](/documentation/balsamiq-wireframe-home.png)
+  * [Meet Up Page](/documentation/balsamiq-wireframe-meetup.png)
+  * [Contact Us Page](/documentation/balsamiq-wireframe-contactus.png)
+  * [Confirmation Page](/documentation/balsamiq-wireframe-confirmation.png)
 
 ### Features
 
@@ -364,13 +364,9 @@ Contact us form:
 
      3. I attempted to submit the form without a message in the textarea. The form works correctly prompting the user to fill in the first name, last name, email address and then the textarea. Once these are all completed the user is directed to the confirmation page within the same browser tab. From here, the user can decide to go back if they wish with the navigation links within the header. 
 
-
-
-
-
 ## Credits
 
-### Contents
+### Content
 
 Content for this website was written by Antony Easter.
 
