@@ -135,7 +135,7 @@ PUP HQ is a website is made up of 3 pages with a confirmation page accessible on
 
 * Meet Up page
   * Meet up/Location. The Meet up section has flip image boxes which on the back side will show the time and location with information of the session.
-  * Google map. The map which shows the exact location the session take place
+  * Google map. The map which shows the exact location the session take place.
 
 * Contact Us page
   * Contact us form. A form which requests first name, last name, email address and a message/question.
@@ -153,7 +153,7 @@ It's vital to make websites as accessible and easy to follow as possible. This h
 
   * Using semantic HTML
   * Using descriptive alt attributes on images
-  * Using aria labels for links including naming the footer social media icons.
+  * Using aria labels for links including naming the footer social media icons
   * Using a colour contrast which is easy to see
   * Creating a shortcut to a differnt section of the page
 
@@ -218,10 +218,10 @@ Testing was constantly being done throughout the whole build of the site. I used
 
 The following issues were raised durning my mid way project mentor meeting:
 
-* The horizontal scroll bar was showing at the bottom of the screen at all times.
-* More information needed on the Meet Up page to hint the user.
-* Remove double spaces in my HTML code.
-* Add more comments to HTML.
+* The horizontal scroll bar was showing at the bottom of the screen at all times
+* More information needed on the Meet Up page to hint the user
+* Remove double spaces in my HTML code
+* Add more comments to HTML
 
 ### W3C Validator
 
