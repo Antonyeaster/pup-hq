@@ -314,7 +314,7 @@ Sugestions:
 Result:
 
 1. Serve static assets with an efficient cache policy, only on the mobile version. After doing a small amount of research on this I did try to add Cache Control but it made no difference to the score. Because of time restraints I made the decision to come back to this in the future.
-2. The spike in the performance score was unexpected due to reverting back to the original code before re submitting. 
+2. I added a aria label to my google map which increased accessibility too 100%.
 
 ### Contact us Page
 
