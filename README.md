@@ -59,37 +59,37 @@ PUP HQ has a dedicated Contact Us page where the user can send questions.
 
 #### Key information about the site
 
-* How to help with dog anxiety
-* The importance of sleep/rest
-* How to deal with toilet training
-* Meet up days and times
-* A way people contact us with a message
+* How to help with dog anxiety.
+* The importance of sleep/rest.
+* How to deal with toilet training.
+* Meet up days and times.
+* A way people contact us with a message.
 
 ### User Stories
 
 #### Client Goals
 
-* To give people a place to go for puppy training
-* To give people tips for how they can build a better life for them and their puppy
-* To allow people to send us a message 
-* To give people the choice to view the site on different size screens
+* To give people a place to go for puppy training.
+* To give people tips for how they can build a better life for them and their puppy.
+* To allow people to send us a message.
+* To give people the choice to view the site on different size screens.
 
 #### First Time Viewers Goals
 
-* I want to know if PUP HQ can help with the problems I have
-* I want to find out where PUP HQ are located
-* I want to see what tips PUP HQ have to offer
-* I want to know if PUP HQ have social media pages
+* I want to know if PUP HQ can help with the problems I have.
+* I want to find out where PUP HQ is located.
+* I want to see what tips PUP HQ have to offer.
+* I want to know if PUP HQ have social media pages.
 
 #### Returning Visitior Goals
 
-* I want to be able to send a message to PUP HQ if im unsure about anything
-* I want to see if the location is still the same now I have another puppy
+* I want to be able to send a message to PUP HQ if im unsure about anything.
+* I want to see if the location is still the same now I have another puppy.
 
 #### Frequent Visitor 
 
-* I want to be able to answer any questions someone might have
-* I want to reassure that anyone and any puppy is welcome at PUP HQ
+* I have another question for PUP HQ.
+
 ## Design
 
 ### Colour Scheme
@@ -138,7 +138,7 @@ PUP HQ is a website is made up of 3 pages with a confirmation page accessible on
   * Google map. The map which shows the exact location the session take place
 
 * Contact Us page
-  * Contact us form. A form which requests first name, last name,email address and a message/question.
+  * Contact us form. A form which requests first name, last name, email address and a message/question.
 
 * Confirmation page
   * Confirmation page. Includes a thank you message with the intention of getting a reply asap.
@@ -233,16 +233,16 @@ The following issues were raised durning my mid way project mentor meeting:
 
 ### Solved Bugs
 
-1. The home page had a horizontal scroll bar which caused centreing issues for the whole page. I solved this by using Chrome Dev Tools to highlight the area which was wider then the page. Reducing the HTML min width solved this problem.
-2. The footer section overlapped the tips section above. I solved this with Chrome Dev Tools and realised I had put the opening footer HTML element in the section above.
+1. The home page had a horizontal scroll bar which caused centreing issues for the whole page. I solved this by using Chrome dev tools to highlight the area which was wider then the page. Reducing the HTML min width solved this problem.
+2. The footer section overlapped the tips section above. I solved this with Chrome dev tools and realised I had put the opening footer HTML element in the section above.
 3. The live google map would become half the screen width but only on a mobile sized screen. I solved is by creating a media query with a max width css rule.
 4. The transparent text box in the hero image was to large on smaller screens and covered the whole image. The solution to this was to create a media query and resize all elements of the text box for smaller screens.
-5. The flip images would flip perfectly on Chrome Dev Tools with a mouse hover and a tap (touchscreen) however, once tested on an actual mobile device the flip boxes could only be flipped when a long press and hold was done, which caused the copy and paste menu to appear. The solution to this was to remove to 3d flip perspective in the css. This was plain trial and error to fix this.
+5. The flip images would flip perfectly on Chrome dev tools with a mouse hover and a tap (touchscreen) however, once tested on an actual mobile device the flip boxes could only be flipped when a long press and hold was done, which caused the copy and paste menu to appear. The solution to this was to remove to 3d flip perspective in the css. This was plain trial and error to fix this.
 6. The gallery images on the home page would be out of line with the tip section above. I solved this by removing the padding in the media query.
 
 ### Known Bugs 
 
-1. Loading times and general performance on some desktop but mostly mobile devices can be a bit slow. The images would need to be compressed with compromising quality for this to improve.
+1. Loading times and general performance on some desktop but mostly mobile devices can be a bit slow. The images would need to be compressed without compromising quality for this to improve.
 
 ### Testing User Stories
 
@@ -277,7 +277,7 @@ The following issues were raised durning my mid way project mentor meeting:
 
 ### Lighthouse
 
-I used Lighthouse in Chrome Dev Tools to test performance, accessibility, best practices and SEO of the website.
+I used Lighthouse in Chrome dev tools to test performance, accessibility, best practices and SEO of the website.
 
 ### Index Page
 
@@ -352,7 +352,7 @@ Result:
 
 To completly test my website I used multiple browsers including Google Chrome, Microsoft Edge, Firefox and Safari. Tested on devices such as, Iphone 14 Pro Max, Iphone 12 Pro, Ipad and HP laptop.
 
-I also used Chrome Dev Tools to test each page at different sizes to test responsiveness.
+I also used Chrome dev tools to test each page at different sizes to test responsiveness.
 
 Links.
 
