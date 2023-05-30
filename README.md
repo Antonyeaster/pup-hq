@@ -29,6 +29,7 @@ PUP HQ will be available to any one and any puppy wanting to learn with times av
 * [Deployment & Local Development](#Deployment-&-Local-Development)
   * [Deployment](#Deployment)
   * [Local Development](#Local-Development)
+    * [How to Fork](#How-to-Fork)
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
@@ -44,6 +45,7 @@ PUP HQ will be available to any one and any puppy wanting to learn with times av
 
 * [Credits](#Credits) 
   * [Content](#Content)
+  * [Media](#Media)
   * [Code Help](#Code-Help)
   * [Acknowledgments](#Acknowledgments)
 
