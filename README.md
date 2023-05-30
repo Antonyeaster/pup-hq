@@ -173,7 +173,7 @@ Google Fonts - To choose and import my desired fonts.
 
 Font Awesome - For social media icons in the footer.
 
-[Readme.so](https://readme.so/editor) - To be able to write and preview the Read.me at the same time.
+[Readme.so](https://readme.so/) - To be able to write and preview the Read me at the same time.
 
 [TinyPNG](https://tinypng.com/) - To compress images.
 
@@ -193,12 +193,12 @@ Google Dev Tools - To help with responsive design and troubleshooting.
 
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
-     1. Log in to Github
-     2. Find the repository for this project, PUP HQ
-     3. Click on settings
-     4. Go to Pages
-     5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
-     6. Click save and your live Github pages site will deployed on the URL shown
+1. Log in to Github
+2. Find the repository for this project, PUP HQ
+3. Click on settings
+4. Go to Pages
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click save and your live Github pages site will deployed on the URL shown
 
 ### Local Development
 
@@ -206,9 +206,9 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 To Fork the PUP HQ repository:
   
-    1. Log in to Github
-    2. Go to the repository - Antonyeaster/pup-hq 
-    3. Select the fork button in the top right hand corner
+1. Log in to Github
+2. Go to the repository - Antonyeaster/pup-hq 
+3. Select the fork button in the top right hand corner
 
 ## Testing
 
@@ -223,24 +223,24 @@ The following issues were raised durning my mid way project mentor meeting:
 
 ### W3C Validator
 
-* [Index Page HTML](/documentation/index-w3c-validation.png)
-* [Meet Up Page HTML](/documentation/meetup-w3c-validator.png)
-* [Contact Us Page](/documentation/contactus-w3c-validator.png)
-* [Confirmation Page](/documentation/confirmation-w3c-validator.png)
-* [Style.css CSS](/documentation/css-w3c-validation.png)
+* [Index Page HTML](/documentation/testing/index-w3c-validation.png)
+* [Meet Up Page HTML](/documentation/testing/meetup-w3c-validation.png)
+* [Contact Us Page](/documentation/testing/contactus-w3c-validation.png)
+* [Confirmation Page](/documentation/testing/confirmation-w3c-validation.png)
+* [Style.css CSS](/documentation/testing/css-w3c-validation.png)
 
 ### Solved Bugs
 
-    1. The home page had a horizontal scroll bar which caused centreing issues for the whole page. I solved this by using Chrome Dev Tools to highlight the area which was wider then the page. Reducing the HTML min width solved this problem.
-    2. The footer section overlapped the tips section above. I solved this with Chrome Dev Tools and realised I had put the opening footer HTML element in the section above.
-    3. The live google map would become half the screen width but only on a mobile sized screen. I solved is by creating a media query with a max width css rule.
-    4. The transparent text box in the hero image was to large on smaller screens and covered the whole image. The solution to this was to create a media query and resize all elements of the text box for smaller screens.
-    5. The flip images would flip perfectly on Chrome Dev Tools with a mouse hover and a tap (touchscreen) however, once tested on an actual mobile device the flip boxes could only be flipped when a long press and hold was done, which caused the copy and paste menu to appear. The solution to this was to remove to 3d flip perspective in the css. This was plain trial and error to fix this.
-    6. The gallery images on the home page would be out of line with the tip section above. I solved this by removing the padding in the media query.
+1. The home page had a horizontal scroll bar which caused centreing issues for the whole page. I solved this by using Chrome Dev Tools to highlight the area which was wider then the page. Reducing the HTML min width solved this problem.
+2. The footer section overlapped the tips section above. I solved this with Chrome Dev Tools and realised I had put the opening footer HTML element in the section above.
+3. The live google map would become half the screen width but only on a mobile sized screen. I solved is by creating a media query with a max width css rule.
+4. The transparent text box in the hero image was to large on smaller screens and covered the whole image. The solution to this was to create a media query and resize all elements of the text box for smaller screens.
+5. The flip images would flip perfectly on Chrome Dev Tools with a mouse hover and a tap (touchscreen) however, once tested on an actual mobile device the flip boxes could only be flipped when a long press and hold was done, which caused the copy and paste menu to appear. The solution to this was to remove to 3d flip perspective in the css. This was plain trial and error to fix this.
+6. The gallery images on the home page would be out of line with the tip section above. I solved this by removing the padding in the media query.
 
 ### Known Bugs 
 
-  1. Loading times and general performance on some desktop but mostly mobile devices can be a bit slow. The images would need to be compressed with compromising quality for this to improve.
+1. Loading times and general performance on some desktop but mostly mobile devices can be a bit slow. The images would need to be compressed with compromising quality for this to improve.
 
 ### Testing User Stories
 
@@ -283,8 +283,8 @@ Initial Lighthouse testing: [Lighthouse testing for mobile Home page - test 1](/
 
 Sugestions:
 
-    1. Largest Contentful Paint element. Lighthouse suggested making the largest contentful paint element smaller on the home page I used [TinyPNG](https://tinypng.com/) to compress the image for better loading times.
-    2. Serve static assets with an efficient cache policy. Lighthouse suggesed making a Cache Control time limit.
+1. Largest Contentful Paint element. Lighthouse suggested making the largest contentful paint element smaller on the home page I used [TinyPNG](https://tinypng.com/) to compress the image for better loading times.
+2. Serve static assets with an efficient cache policy. Lighthouse suggesed making a Cache Control time limit.
 
 Final Lighthouse Testing:
 
@@ -293,9 +293,9 @@ Final Lighthouse Testing:
 
 Result
 
-    1. Largest Contentful Paint element. The result of this did not increase my performance score, but made my image a lot more pixelated. I chose to keep the image file the original size.
+1. Largest Contentful Paint element. The result of this did not increase my performance score, but made my image a lot more pixelated. I chose to keep the image file the original size.
     
-    2. Serve static assets with an efficient cache policy. After doing a small amount of research on this I did try to add Cache Control but it made no difference to the score. Because of time restraints I made the decision to come back to this in the future.   
+2. Serve static assets with an efficient cache policy. After doing a small amount of research on this I did try to add Cache Control but it made no difference to the score. Because of time restraints I made the decision to come back to this in the future.   
 
 ### Meet up Page 
 
@@ -304,14 +304,15 @@ Initial Light house testing: [Lighthouse testing for mobile Meet up page - test 
 
 Sugestions:
 
-     1. Serve static assets with an efficient cache policy. Lighthouse suggesed making a Cache Control time limit.
+1. Serve static assets with an efficient cache policy. Lighthouse suggesed making a Cache Control time limit.
 
 ![Meet up page mobile test](/documentation/testing/lighthouse-meetup-mobile-test.png) 
 ![Meet up page desktop test](/documentation/testing/lighthouse-meetup-desktop-test.png)
 
 Result:
 
-     1. Serve static assets with an efficient cache policy, only on the mobile version. After doing a small amount of research on this I did try to add Cache Control but it made no difference to the score. Because of time restraints I made the decision to come back to this in the future.
+1. Serve static assets with an efficient cache policy, only on the mobile version. After doing a small amount of research on this I did try to add Cache Control but it made no difference to the score. Because of time restraints I made the decision to come back to this in the future.
+2. The spike in the performance score was unexpected due to reverting back to the original code before re submitting. 
 
 ### Contact us Page
 
@@ -320,14 +321,14 @@ Initial Light house testing: [Lighthouse testing for mobile Contact us page - te
 
 Sugestions:
 
-     1. Serve static assets with an efficient cache policy. Lighthouse suggesed making a Cache Control time limit.
+1. Serve static assets with an efficient cache policy. Lighthouse suggesed making a Cache Control time limit.
 
 ![Contact us page mobile test](/documentation/testing/lighthouse-contactus-mobile-test.png)
 ![Contact us page desktop test](/documentation/testing/lighthouse-contactus-desktop-test.png)
 
 Result:
 
-     1. Serve static assets with an efficient cache policy, only on the mobile version. After doing a small amount of research on this I did try to add Cache Control but it made no difference to the score. Because of time restraints I made the decision to come back to this in the future.
+1. Serve static assets with an efficient cache policy, only on the mobile version. After doing a small amount of research on this I did try to add Cache Control but it made no difference to the score. Because of time restraints I made the decision to come back to this in the future.
 
 ### Confirmation Page
 
@@ -336,14 +337,14 @@ Initial Light house testing: [Lighthouse testing for mobile Confirmation page - 
 
 Sugestions:
 
-     1. Serve static assets with an efficient cache policy. Lighthouse suggesed making a Cache Control time limit.
+1. Serve static assets with an efficient cache policy. Lighthouse suggesed making a Cache Control time limit.
 
 ![Confirmation page mobile test](/documentation/testing/lighthouse-confirmation-mobile-test.png)
 ![Confirmation page desktop test](/documentation/testing/lighthouse-confirmation-desktop-test.png)
 
 Result:
 
-     1. Serve static assets with an efficient cache policy, only on the mobile version. After doing a small amount of research on this I did try to add Cache Control but it made no difference to the score. Because of time restraints I made the decision to come back to this in the future.
+1. Serve static assets with an efficient cache policy, only on the mobile version. After doing a small amount of research on this I did try to add Cache Control but it made no difference to the score. Because of time restraints I made the decision to come back to this in the future.
 
 ### Full Testing
 
@@ -353,18 +354,18 @@ I also used Chrome Dev Tools to test each page at different sizes to test respon
 
 Links.
 
-     1. Test all the links in the header of all pages. They all worked as expected with clear indication to which page you are on.
-     2. Test the Tips link on the Home page. The link worked as expected with it saving the user the need to scroll down.
-     3. Test the links in the footer of every page. As they are all external links they worked as expected directing the user to a new browser tab.
-     4. Test the "more options" link in the google map. The link works as expected directing the user to a new browser tab.
+1. Test all the links in the header of all pages. They all worked as expected with clear indication to which page you are on.
+2. Test the Tips link on the Home page. The link worked as expected with it saving the user the need to scroll down.
+3. Test the links in the footer of every page. As they are all external links they worked as expected directing the user to a new browser tab.
+4. Test the "more options" link in the google map. The link works as expected directing the user to a new browser tab.
 
 Contact us form:
 
-     1. Test the contact us form. I attempted to submit the form without filling in any details. The form worked correctly and directed the user to fill in their first name. I then entered a name and attempted to submit the form again. The form worked correctly and directed the user to fill in the last name. I then filled in both first and last name and tried to submit the form again. The form worked correctly prompting the user to fill in the email address input. I then tried using an email address without the correct format. The form worked correctly and prompted the user the email address must use an @ symbol. After entering a correct email address. I tried to submit the form without including a message. The form worked correctly and instructed the user to enter a message. Once I entered a message I submitted the form. The form worked correctly and took me to the confirmation page within the same browser tab.
+1. Test the contact us form. I attempted to submit the form without filling in any details. The form worked correctly and directed the user to fill in their first name. I then entered a name and attempted to submit the form again. The form worked correctly and directed the user to fill in the last name. I then filled in both first and last name and tried to submit the form again. The form worked correctly prompting the user to fill in the email address input. I then tried using an email address without the correct format. The form worked correctly and prompted the user the email address must use an @ symbol. After entering a correct email address. I tried to submit the form without including a message. The form worked correctly and instructed the user to enter a message. Once I entered a message I submitted the form. The form worked correctly and took me to the confirmation page within the same browser tab.
 
-     2. I attempted to submit the form with just a email address entered. The form worked correcty and intructed the user to fill out the name inputs. Once I filled in the names and email the form requests the user to fill in the textarea. Once all the form is filled in the user is then directed to the confirmation page within the same browser tab.
+2. I attempted to submit the form with just a email address entered. The form worked correcty and intructed the user to fill out the name inputs. Once I filled in the names and email the form requests the user to fill in the textarea. Once all the form is filled in the user is then directed to the confirmation page within the same browser tab.
 
-     3. I attempted to submit the form without a message in the textarea. The form works correctly prompting the user to fill in the first name, last name, email address and then the textarea. Once these are all completed the user is directed to the confirmation page within the same browser tab. From here, the user can decide to go back if they wish with the navigation links within the header. 
+3. I attempted to submit the form without a message in the textarea. The form works correctly prompting the user to fill in the first name, last name, email address and then the textarea. Once these are all completed the user is directed to the confirmation page within the same browser tab. From here, the user can decide to go back if they wish with the navigation links within the header. 
 
 ## Credits
 
